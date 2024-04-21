@@ -9,5 +9,5 @@ spec:
     displayName: Customer And Brand Experience Art
     email: cbe@agco.com
     # Intentional no picture for testing
-  parent: onde-digital
+  parent: one-digital
   children: [cep-area]
