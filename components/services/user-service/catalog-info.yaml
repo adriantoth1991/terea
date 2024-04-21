@@ -3,9 +3,9 @@ kind: Component
 metadata:
   name: user-service
   description: "The User service that does user stuff."
+  annotations:
+    backstage.io/techdocs-ref: dir:./docs
 spec:
   type: service
   lifecycle: experimental
   owner: engineering
-annotations:
-  backstage.io/techdocs-ref: dir:./docs
