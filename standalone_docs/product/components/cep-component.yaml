@@ -44,6 +44,6 @@ spec:
   owner: maverick
   system: cep-platform
   dependsOn: ['resource:cep-db']
-    providesApis:
+  providesApis:
     - user-service-api
     - user-service-graphql
