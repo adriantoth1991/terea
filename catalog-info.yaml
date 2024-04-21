@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: default-components
+spec:
+  type: url
+  targets:
+    - ./components/services/user-service/catalog-info.yaml
