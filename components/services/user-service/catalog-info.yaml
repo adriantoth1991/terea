@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: user-service
+  description: "The User service that does user stuff."
+spec:
+  type: service
+  lifecycle: experimental
+  owner: engineering
+annotations:
+  backstage.io/techdocs-ref: dir:./docs
