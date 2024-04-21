@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: cep-platform
+  description: Everything related to the CEP product
+  tags:
+    - portal
+    - product
+spec:
+  owner: maverick
+  domain: cep-domain

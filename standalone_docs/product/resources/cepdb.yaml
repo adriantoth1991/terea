@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: cep-db
+  description: Stores user details
+  tags:
+    - aws
+    - aurora
+    - postgresql
+spec:
+  type: database
+  owner: maverick
+  system: cep-platform

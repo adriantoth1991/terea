@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: cep-domain
+  description: Everything related to the CEP product
+  title: CEP Product
+  links:
+    - url: http://example.com/domain/cep
+      title: CEP Readme
+    - url: http://example.com/domains/cep/dashboard
+      title: CEP Dashboard
+      icon: dashboard
+spec:
+  owner: maverick
