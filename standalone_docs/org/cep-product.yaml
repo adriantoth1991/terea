@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cep-product
+  description: Customer Experience Platform Product
+spec:
+  type: sub-department
+  profile:
+    displayName: Customer Experience Platform Product
+    email: cepproduct@agco.com
+    # Intentional no picture for testing
+  parent: cep-area
+  children: [maverick]

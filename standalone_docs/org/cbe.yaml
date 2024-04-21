@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cbe-art
+  description: The CBE ART
+spec:
+  type: sub-department
+  profile:
+    displayName: Customer And Brand Experience Art
+    email: cbe@agco.com
+    # Intentional no picture for testing
+  parent: onde-digital
+  children: [cep-area]

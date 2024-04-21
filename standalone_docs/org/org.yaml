@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: agco-corp
+  description: The AGCO organization
+  links:
+    - url: http://www.agco.com
+      title: Website
+    - url: https://agco.wikimedia.agcocorp.org/wiki/
+      title: Intranet
+spec:
+  type: organization
+  profile:
+    displayName: AGCO Corp
+    email: info@agco.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
+  children: [one-digital]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: agco-groups
+  description: A collection of all AGCO Groups
+spec:
+  targets:
+    - ./one-digital.yaml
+    - ./cbe.yaml
+    - ./cep-area.yaml
+    - ./cep-product.yaml
+    - ./maverick.yaml

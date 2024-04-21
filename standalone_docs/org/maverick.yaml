@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: maverick
+  description: Team Maverick
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: maverick@example.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
+  parent: cep-product
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: adriantoth1991
+spec:
+  profile:
+    displayName: Adrian Toth
+    email: adrian.toth@agcocorp.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Bear&backgroundColor=transparent
+  memberOf: [maverick]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mihaly.farkas
+spec:
+  profile:
+    displayName: Mihaly Farkas
+    email: mihaly.farkas@example.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Leo&backgroundColor=transparent
+  memberOf: [maverick]

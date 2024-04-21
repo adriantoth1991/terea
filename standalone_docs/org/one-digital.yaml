@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: one-digital
+  description: The One-Ditigal Project Department
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: agco-corp
+  children: [cbe-art]
