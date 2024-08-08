@@ -26,6 +26,17 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  name: adrian-toth_agco
+spec:
+  profile:
+    displayName: Adrian Toth
+    email: adrian.toth@agcocorp.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Bear&backgroundColor=transparent
+  memberOf: [maverick]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
   name: mihaly.farkas
 spec:
   profile:
