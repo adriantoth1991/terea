@@ -44,3 +44,25 @@ spec:
     email: mihaly.farkas@example.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Leo&backgroundColor=transparent
   memberOf: [maverick]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mihaly-farkas_agco
+spec:
+  profile:
+    displayName: Mihaly Farkas
+    email: mihaly.farkas@agcocorp.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Leo&backgroundColor=transparent
+  memberOf: [maverick]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Ext-Abraham-Menyhart_agco
+spec:
+  profile:
+    displayName: Abraham Menyhart
+    email: Ext.Abraham.Menyhart@agcocorp.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Leo&backgroundColor=transparent
+  memberOf: [maverick]
