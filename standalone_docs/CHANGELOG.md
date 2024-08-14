@@ -4,9 +4,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.2.0] - 2024-08-14
+## [1.2.0] - 2024-08-14 - STAGE, TEST
 
-### New
+### New Features
 - Introduced the "Coffee Break" button. It doesn’t do much, but it feels right.
 - Added support for interdimensional portals, because why not?
 
@@ -22,7 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - The "Instant Gratification" feature, because it was too gratifying.
 - Deprecated the "Telepathic Input" method due to frequent misunderstandings with users' thoughts.
 
-## [1.1.0] - 2024-06-30
+## [1.1.0] - 2024-06-30 - PROD
 
 ### New
 - Introduced the "Auto-Joke" feature that randomly inserts dad jokes into your code.
