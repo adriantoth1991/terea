@@ -6,13 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [1.2.0] - 2024-08-14 - STAGE, TEST
 
-### New Features
+### Added 
 - Introduced the "Coffee Break" button. It doesn’t do much, but it feels right.
 - Added support for interdimensional portals, because why not?
 
-### Changed
-- The "Save" button now asks if you *really* meant to click it.
-- Updated the "Night Mode" to be even darker. Like, "where did my screen go?" dark.
+### Security 
+- New authorization.
 
 ### Fixed
 - The "Undo" button now properly undoes the last mistake, not the one before that.
@@ -24,7 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [1.1.0] - 2024-06-30 - PROD
 
-### New
+### Added 
 - Introduced the "Auto-Joke" feature that randomly inserts dad jokes into your code.
 - Added "Quantum Debugger" that may or may not fix your bugs, depending on observer effect.
 
@@ -32,9 +31,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Revamped the "Loading Screen" to include a countdown to when you might start being productive.
 - Enhanced the "Error Messages" to include more exclamation points and sad face emojis.
 
-### Fixed
-- Fixed an issue where the "Delete All" button was a little too enthusiastic.
-- Resolved a bug that caused the "Randomize Everything" button to randomize literally everything.
+### Deprecated 
+- Old login feature.
 
 ### Removed
 - Removed the "Holographic UI" as it kept projecting onto the wrong walls.
@@ -42,7 +40,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [1.0.0] - 2024-05-01
 
-### New
+### Added 
 - Launched the first official version! 🎉
 - Added a "Sarcasm Detector" that occasionally beeps, just to remind you it's there.
 - Included "Auto-High Five" for when you successfully push to production without breaking anything.
