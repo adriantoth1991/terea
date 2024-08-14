@@ -2,9 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: cep-component
-  annotations:
-    changelog-file-ref: "url:https://github.com/standard/standard/blob/master/CHANGELOG.md"
-    changelog-name: "CHANGELOG_CUSTOM_NAME.md"
   description: The CEP Product
   tags:
     - java
@@ -39,6 +36,8 @@ metadata:
       title: Alerts
       icon: alert
   annotations:
+    changelog-file-ref: "url:https://github.com/standard/standard/blob/master/CHANGELOG.md"
+    changelog-name: "CHANGELOG_CUSTOM_NAME.md"
     backstage.io/source-template: template:default/springboot-template
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
     backstage.io/techdocs-ref: dir:.
