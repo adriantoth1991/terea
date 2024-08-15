@@ -43,7 +43,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: maverick
   system: cep-platform
   dependsOn: ['resource:cep-db']
