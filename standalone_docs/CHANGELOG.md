@@ -4,11 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.2.0] - 2024-08-14 - STAGE, TEST
+## [1.3.0] - 2024-10-14 - in development 
+
+### Planned major changes 
+- There will be some new stories finished and deployed
+
+## [1.2.0] - 2024-08-14 
 
 ### Added 
 - Introduced the "Coffee Break" button. It doesn’t do much, but it feels right.
 - Added support for interdimensional portals, because why not?
+- Some new things regarding this and that
 
 ### Security 
 - New authorization.
@@ -16,12 +22,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Fixed
 - The "Undo" button now properly undoes the last mistake, not the one before that.
 - Corrected an issue where the application would occasionally open a parallel universe by mistake.
+- Buttons are now fixed.
+- Buttons are fixed for real.
 
 ### Removed
 - The "Instant Gratification" feature, because it was too gratifying.
-- Deprecated the "Telepathic Input" method due to frequent misunderstandings with users' thoughts.
 
-## [1.1.0] - 2024-06-30 - PROD
+## [1.1.0] - 2024-06-30
 
 ### Added 
 - Introduced the "Auto-Joke" feature that randomly inserts dad jokes into your code.
@@ -44,15 +51,3 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Launched the first official version! 🎉
 - Added a "Sarcasm Detector" that occasionally beeps, just to remind you it's there.
 - Included "Auto-High Five" for when you successfully push to production without breaking anything.
-
-### Changed
-- The "Settings" page now has 42 more options, because choices are important.
-- Modified the "Help" section to include vague hints instead of direct answers, to keep things interesting.
-
-### Fixed
-- Fixed the issue where the "Motivation" feature would crash on Mondays.
-- Corrected a problem where the "Code Beautifier" was getting a little too opinionated.
-
-### Removed
-- Removed the "Procrastinate" button, as it was getting overused.
-- Deleted the "Infinite Loop Generator" after it was found to be too efficient.
